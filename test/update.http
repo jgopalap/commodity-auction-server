@@ -1,0 +1,40 @@
+###
+PUT http://localhost:8000/updateUser
+Content-Type: application/json
+
+{
+  "user_id": 19,
+  "username":"jgopalap",
+  "password":"jaffna123",
+  "email_address":"jgopalap@gmail.com",
+  "account_status_id":1,
+  "first_name": "Jasinthan",
+  "last_name": "Gopal",
+  "user_type_id": 1,
+  "business_address": "244 Pimlico Dr. Oshawa ON L1L 0L4 Canada",
+  "business_name": "Thameera's Exchange"
+}
+
+###
+PATCH http://localhost:8000/updateUserStatus
+Content-Type: application/json
+
+{
+  "user_id": 19,
+  "account_status_id": 2
+}
+
+###
+PUT http://localhost:8000/updateAuction
+Content-Type: application/json
+
+{
+  "auction_id": 3,
+  "sold_price": 3.45,
+  "sold_weight": 50,
+  "broker_id": 1,
+  "lot_id": 5,
+  "location_id": 1,
+  "reserve_price": 2.45,
+  "start_time": "2014-01-01T23:28:56.782Z"
+}

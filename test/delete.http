@@ -1,0 +1,41 @@
+###
+DELETE http://localhost:8000/removeProduct
+Content-Type: application/json
+
+{
+  "product_id":6
+}
+
+###
+DELETE http://localhost:8000/removeProduct
+Content-Type: application/json
+
+{
+  "product_id":5
+}
+
+
+###
+DELETE http://localhost:8000/removeAuction
+Content-Type: application/json
+
+{
+  "auction_id": 3
+}
+
+###
+DELETE http://localhost:8000/removeLot
+Content-Type: application/json
+
+{
+  "lot_id": 5
+}
+
+###
+DELETE http://localhost:8000/removeBid
+Content-Type: application/json
+
+{
+  "bid_id": 6,
+  "user_type_id": 3
+}

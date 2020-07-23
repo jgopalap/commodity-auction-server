@@ -1,0 +1,280 @@
+###
+POST http://localhost:8000/addUser
+Content-Type: application/json
+
+{
+  "username":"jgopalap",
+  "password":"jaffna123",
+  "email_address":"jgopalap@gmail.com",
+  "first_name": "Jasinthan",
+  "last_name": "Gopalapillai",
+  "user_type_id": 1,
+  "business_address": "244 Pimlico Dr. Oshawa ON L1L 0L4 Canada",
+  "business_name": "Thameera's Exchange"
+}
+
+###
+POST http://localhost:8000/addUser
+Content-Type: application/json
+
+{
+  "username":"ameeraj",
+  "password":"jaffna123",
+  "email_address":"ameera.jasi@gmail.com",
+  "first_name": "Ameera",
+  "last_name": "Gopalapillai",
+  "user_type_id": 2,
+  "business_address": "244 Pimlico Dr. Oshawa ON L1L 0L4 Canada",
+  "business_name": "Thameera's Exchange"
+}
+
+###
+POST http://localhost:8000/addUser
+Content-Type: application/json
+
+{
+  "username":"tharaj",
+  "password":"jaffna123",
+  "email_address":"thara.jasinthan@gmail.com",
+  "first_name": "Thara",
+  "last_name": "Jasinthan",
+  "user_type_id": 3,
+  "business_address": "244 Pimlico Dr. Oshawa ON L1L 0L4 Canada",
+  "business_name": "Thameera's Exchange"
+}
+
+###
+POST http://localhost:8000/addUser
+Content-Type: application/json
+
+{
+  "username":"nivej",
+  "password":"jaffna123",
+  "email_address":"nivetha.jasi@gmail.com",
+  "first_name": "Nivetha",
+  "last_name": "Jasinthan",
+  "user_type_id": 3,
+  "business_address": "244 Pimlico Dr. Oshawa ON L1L 0L4 Canada",
+  "business_name": "Thameera's Exchange"
+}
+
+
+###
+POST http://localhost:8000/addUser
+Content-Type: application/json
+
+{
+  "username":"ygopalap",
+  "password":"jaffna123",
+  "email_address":"yalinig@gmail.com",
+  "first_name": "Yalini",
+  "last_name": "Anakan",
+  "user_type_id": 3,
+  "business_address": "244 Pimlico Dr. Oshawa ON L1L 0L4 Canada",
+  "business_name": "Thameera's Exchange"
+}
+
+###
+POST http://localhost:8000/addUser
+Content-Type: application/json
+
+{
+  "username":"yamini_gopal",
+  "password":"jaffna123",
+  "email_address":"yamini_gopal@gmail.com",
+  "first_name": "Yamini",
+  "last_name": "Gopalapillai",
+  "user_type_id": 3,
+  "business_address": "244 Pimlico Dr. Oshawa ON L1L 0L4 Canada",
+  "business_name": "Thameera's Exchange"
+}
+
+###
+POST http://localhost:8000/addUser
+Content-Type: application/json
+
+{
+  "username":"salinig",
+  "password":"jaffna123",
+  "email_address":"salinig@gmail.com",
+  "first_name": "Salini",
+  "last_name": "Gopalapillai",
+  "user_type_id": 3,
+  "business_address": "244 Pimlico Dr. Oshawa ON L1L 0L4 Canada",
+  "business_name": "Thameera's Exchange"
+}
+
+###
+POST http://localhost:8000/addUser
+Content-Type: application/json
+
+{
+  "username":"siva_gopal",
+  "password":"jaffna123",
+  "email_address":"siva_gopal@gmail.com",
+  "first_name": "Sivapakkiam",
+  "last_name": "Gopalapillai",
+  "user_type_id": 4,
+  "business_address": "244 Pimlico Dr. Oshawa ON L1L 0L4 Canada",
+  "business_name": "Halpewatte"
+}
+
+###
+POST http://localhost:8000/addUser
+Content-Type: application/json
+
+{
+  "username":"gopal_kanapathipillai",
+  "password":"jaffna123",
+  "email_address":"gopal_kanapathi@gmail.com",
+  "first_name": "Gopalapillai",
+  "last_name": "Kanapathipillai",
+  "user_type_id": 4,
+  "business_address": "244 Pimlico Dr. Oshawa ON L1L 0L4 Canada",
+  "business_name": "New Vithanakande"
+}
+
+###
+POST http://localhost:8000/addProduct
+Content-Type: application/json
+
+{
+  "user_id":8,
+  "category_id": 1
+}
+
+###
+POST http://localhost:8000/addProduct
+Content-Type: application/json
+
+{
+  "user_id":8,
+  "category_id": 2
+}
+
+###
+POST http://localhost:8000/addProduct
+Content-Type: application/json
+
+{
+  "user_id":9,
+  "category_id": 5
+}
+
+
+###
+POST http://localhost:8000/addLot
+Content-Type: application/json
+
+{
+  "product_id":1,
+  "original_weight": 600,
+  "date_arrived": "2020-05-01T13:00:00.000Z"
+}
+
+###
+POST http://localhost:8000/addLot
+Content-Type: application/json
+
+{
+  "product_id":2,
+  "original_weight": 700,
+  "date_arrived": "2020-04-30T13:00:00.000Z"
+}
+
+###
+POST http://localhost:8000/addAuction
+Content-Type: application/json
+
+{
+  "user_id":8,
+  "lot_id": 1,
+  "start_time": "2020-05-05T13:00:00.000Z",
+  "reserve_price": 2.45,
+  "offered_weight": 600
+}
+
+
+###
+POST http://localhost:8000/addAuction
+Content-Type: application/json
+
+{
+  "user_id":9,
+  "lot_id": 2,
+  "start_time": "2020-05-04T13:30:00.000Z",
+  "reserve_price": 2.55,
+  "offered_weight": 700
+}
+
+###
+POST http://localhost:8000/addBid
+Content-Type: application/json
+
+{
+  "user_id":3,
+  "user_type_id": 3,
+  "auction_id": 1,
+  "value": 2.45,
+  "weight": 50,
+  "time": "2020-05-04T13:30:00.000Z",
+  "budget": 5000
+}
+
+###
+POST http://localhost:8000/addBid
+Content-Type: application/json
+
+{
+  "user_id":4,
+  "user_type_id": 3,
+  "auction_id": 1,
+  "value": 2.55,
+  "weight": 70,
+  "time": "2020-05-04T13:30:00.000Z",
+  "budget": 10000
+}
+
+###
+POST http://localhost:8000/addBid
+Content-Type: application/json
+
+{
+  "user_id":5,
+  "user_type_id": 3,
+  "auction_id": 1,
+  "value": 2.65,
+  "weight": 90,
+  "time": "2020-05-04T13:30:00.000Z",
+  "budget": 15000
+}
+
+###
+POST http://localhost:8000/addBid
+Content-Type: application/json
+
+{
+  "user_id":6,
+  "user_type_id": 3,
+  "auction_id": 1,
+  "value": 2.75,
+  "weight": 40,
+  "time": "2020-05-04T13:30:00.000Z",
+  "budget": 5000
+}
+
+###
+POST http://localhost:8000/addBid
+Content-Type: application/json
+
+{
+  "user_id":7,
+  "user_type_id": 4,
+  "auction_id": 3,
+  "value": 2.95,
+  "weight": 50,
+  "time": "2020-05-04T13:30:00.000Z",
+  "budget": 10000
+}
+
+

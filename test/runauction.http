@@ -1,0 +1,7 @@
+###
+POST http://localhost:8000/runAuction
+Content-Type: application/json
+
+{
+  "auction_id": 1
+}
